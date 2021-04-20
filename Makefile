@@ -25,4 +25,3 @@ clean:
 install: $(EXECUTABLE)
 	mkdir -p $(DESTDIR)/$(BINDIR)
 	install -m 0755 $< $(DESTDIR)/$(BINDIR)
-
