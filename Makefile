@@ -19,9 +19,6 @@ all: $(SOURCES) $(EXECUTABLE)
 $(EXECUTABLE): $(OBJECTS)
 	$(CXX) $(LDFLAGS) $^ -o $@
 
-clean:
-	$(RM) $(EXECUTABLE) *.o
-
 install: $(EXECUTABLE)
 	mkdir -p $(DESTDIR)/$(BINDIR)
 	install -m 0755 $< $(DESTDIR)/$(BINDIR)
