@@ -1,5 +1,5 @@
 #include <iostream>
 
 int main() {
-    std::cout << "World\n" << std::endl;
+    std::cout << "Is there anybody out there?\n" << std::endl;
 }
